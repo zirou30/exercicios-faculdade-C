@@ -1,3 +1,9 @@
+/*
+Questão -1- 
+Escreva um algoritmo que simule uma calculadora: Leia 2 números, o sinal (+ - / x) e
+retorne o resultado.
+*/
+
 #include <stdio.h>
 
 int main() {

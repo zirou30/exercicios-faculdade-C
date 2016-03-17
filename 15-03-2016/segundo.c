@@ -1,3 +1,10 @@
+/*
+Questão -2- 
+Escreva um algoritmo que leia as 4 notas bimestrais de um aluno. Em seguida o
+algoritmo deve calcular e escrever a média obtida pelo aluno e informar se o aluno foi
+aprovado ou reprovado. Média para aprovação >= 6.
+*/
+
 #include <stdio.h>
 
 
