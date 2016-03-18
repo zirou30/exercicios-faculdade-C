@@ -55,7 +55,7 @@ int main() {
 
     printf("O resultado da multiplicação entre %d e %d, é igual a %d \n", a, b, a*b);
   }
-  else {
+  else if(opt == 4) {
   	printf("Digite um valor para variável A: ");
   	scanf("%d", &a);
 
@@ -64,6 +64,8 @@ int main() {
 
     printf("O resultado da divisão entre %d e %d, é igual a %d \n", a, b, a/b);
   }
- 
+  else {
+    printf("Você não digitou uma opção válida\n");
+  }
 }
 
