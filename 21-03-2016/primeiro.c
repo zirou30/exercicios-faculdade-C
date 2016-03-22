@@ -8,42 +8,47 @@ mostre uma mensagem de erro.
 
 int main() {
   int dia;
-  int total_tentativas = 3;
+  int continuar = 1;
   int tentativas = 1;
+  int total_erros = 1;
 
 
-  for (int  i = 1; i <= total_tentativas; i++) {
-  	printf("\nTentativa %d\n", tentativas);
+  while(continuar) {
+    printf("\nTentativa %d\n", tentativas);
     printf("Informe o dia(de 1 a 7): ");
     scanf("%d", &dia); 
 
-    if (dia == 1) {
-    	printf("Hoje é domingo\n");
-    }
-    else if (dia == 2) {
-    	printf("Hoje é segunda\n");
-    }
-    else if (dia == 3) {
-    	printf("Hoje é terça\n");
-    }
-    else if (dia == 4) {
-    	printf("Hoje é quarta\n");
-    }
-    else if (dia == 5) {
-    	printf("Hoje é quinta\n");
-    }
-    else if (dia == 6) {
-    	printf("Hoje é sexta\n");
-    }
-    else if (dia == 7) {
-    	printf("Hoje é sábado\n");
-    }
-    else {
-    	printf("\nVocê não digitou um número válido(somente números de 1 e 7)\n");
-    	if (i == total_tentativas){
-    		printf("Você errou 3 vezes\n");
-    		break;
-    	}
+    switch(dia) {
+      case 1:
+        printf("Hoje é domingo\n");
+        break;
+      case 2:
+        printf("Hoje é segunda\n");
+        break;
+      case 3:
+        printf("Hoje é terça\n");
+        break;
+      case 4:
+        printf("Hoje é quarta\n");
+        break;
+      case 5:
+        printf("Hoje é quinta\n");
+        break;
+      case 6: 
+        printf("Hoje é sexta\n");
+        break;
+      case 7:
+        printf("Hoje é sábado\n");
+        break;
+      default:
+        printf("Você digitou um número inválido\n");
+        total_erros++;
+        if (total_erros > 3) {
+          printf("\n*******************************************\n");
+          printf("Você não digitou um número inválido 3 vezes\n");
+          printf("*******************************************\n");
+          continuar = 0;
+        }
     }
     tentativas++;
   }
