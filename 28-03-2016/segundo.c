@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h> 
+
 int main(){
    
   char letra;
@@ -18,3 +19,7 @@ int main(){
     } 
   printf("\n");
 }
+
+
+
+

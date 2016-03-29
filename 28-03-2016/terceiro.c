@@ -5,7 +5,7 @@ int main() {
   
   int num1, num2, num3;
 
-  repita:
+  
   printf("Digite um numero: ");
   scanf("%d", &num1);
 
