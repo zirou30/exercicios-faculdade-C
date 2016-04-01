@@ -22,7 +22,11 @@ Autor: Luiz Filipe V
 #include <time.h>  //Manipulação de datas e horários
 
 
-//Função que gera um número aleatório
+//Função que gera um número aleatório 
+//Cria uma função que recebe um número inteiro(range)
+//Declara a variavel num(do tipo inteiro)
+//A função rand() gera um número aleatório grande
+//O resto da divisão entre o número gerado por rand  e o range sera sempre um numero >= 0  e < range
 int aleatorio(int range) {
   int num;
   num = rand() % range;
