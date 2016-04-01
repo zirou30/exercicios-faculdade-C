@@ -27,8 +27,8 @@ printf("\n");
   while(chave1) {
     printf("Digite o número de faltas: ");
     scanf("%d", &total_faltas);
-  
-  	if (total_faltas < 0 || total_faltas > 40) {
+
+    if (total_faltas < 0 || total_faltas > 40) {
   		printf("Você não digitou um valor válido\n");
   	}
   	else if (total_faltas > 10 && total_faltas <= 40) {
