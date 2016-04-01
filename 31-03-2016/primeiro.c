@@ -17,9 +17,9 @@ Autor: Luiz Filipe V
 */
 
 //Bibliotecas 
-#include <stdio.h>  
-#include <stdlib.h>
-#include <time.h>
+#include <stdio.h>  //Cabeçalho padrão de entrada e saída
+#include <stdlib.h>  //Alocação de memória, controle de processos, conversões e outras
+#include <time.h>  //Manipulação de datas e horários
 
 
 //Função que gera um número aleatório
