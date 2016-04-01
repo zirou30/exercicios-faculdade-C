@@ -11,7 +11,7 @@ OBS: Dentro do laço de repetição,
 deverá existir uma função para sortear um intervalo de números indo de 0 a 10.
 Tentar usar função Randômica.
 
-OBS2: Feito no linux que aceita acentos por padrão, no windows será necessário removê=los.
+OBS2: Feito no linux que aceita acentos por padrão, no windows será necessário removê-los.
 
 Autor: Luiz Filipe V
 */
