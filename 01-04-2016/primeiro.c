@@ -44,7 +44,7 @@ int main() {
         printf("V - Viuvo\n");
         printf("D - Divorciado\n");
         printf("******************************************************\n");
-        printf("Digite o numero correspondente: ");
+        printf("Digite a letra correspondente: ");
         scanf(" %c", &estado_civil);
        
 
