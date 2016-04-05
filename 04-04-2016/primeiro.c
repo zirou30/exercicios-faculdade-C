@@ -14,11 +14,21 @@ de meses necessários para pagar a dívida.
 //Função principal
 int main() {
 
+	/*
 	float divida = 10000;  //Variável que armazena a divida que aumenta com juros mensal de 2.5%
 	float aplicacao = 1500;  //Variável que armazena a aplicacao que aumenta com juros mensal de 2.5%
+	*/
+
 	float juros_divida = 0.025; //Variavel que armazena o valor do juros da divida(2.5%), regra de três 2.5/100
 	float juros_aplicacao = 0.04; //Variavel que armazena o valor do juros da aplicacao(4%), regra de três 4/100
 	int mes = 0; //Contador para indicar o número de meses necessários
+	float divida, aplicacao;
+    
+	printf("Digite o valor da divida: ");
+	scanf("%f", &divida);
+
+	printf("Digite o valor da aplicacao: ");
+	scanf("%f", &aplicacao);
 	
 
     //Enquanto o valor da dívida for MENOR que o valor da aplicação, faça:
