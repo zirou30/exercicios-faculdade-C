@@ -31,7 +31,7 @@ int main() {
 		divida = (10000 * 0.04) + 10000
 		Na segunda vez que o loop( while ) for executado ele vai fazer
 		divida = (10250 * 0.04) + 10250
-		e assim sucessivamente.
+		e assim sucessivamente enquanto a divida for MAIOR que a aplicação
 		*/
 		aplicacao = (aplicacao * juros_aplicacao) + aplicacao; 
 		//A mesma coisa que na operação acima porém com os dados do juros para a aplicação( 4%/mês )
