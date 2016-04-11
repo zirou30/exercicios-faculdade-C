@@ -1,6 +1,6 @@
 //Alunos: Luiz Filipe Virtuoso, Hudson Cosme Ferreira, Victor Henrique Paiva
 
-//vhpos.ss@gmail.com
+
 
 /*
 QUESTÃO 01 (3pts) – Elabore um programa em C para ler o salário de um vendedor e suas três

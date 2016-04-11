@@ -6,13 +6,7 @@ segundos representa 1 hora, 20 minutos e 43 segundos.
 */
 
 
-/*
 
-      horas<- segundos div 3600
-      minutos<- (segundos-(horas*3600)) div 60
-      segundos<- segundos-(horas*3600)-(minutos*60)
-
-*/
 #include <stdio.h> //Cabeçalho padrão de entrada/saída 
  
 int main() {
